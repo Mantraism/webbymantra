@@ -1,0 +1,370 @@
+* {cursor: url(https://ani.cursors-4u.net/cursors/cur-13/cur1155.ani), url(https://ani.cursors-4u.net/cursors/cur-13/cur1155.png), auto !important;}
+
+    /* BODY */
+
+    body {
+        background-color: rgb(0, 0, 0);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    /* SELECTION */
+    
+    ::selection {
+        color: red;
+        background: yellow;
+    }
+    
+    /*  LINK */
+    
+    a:link {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: whitesmoke;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    
+    a:active {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    
+    
+    /* TOP NAVIGATION */
+    .navbar {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        width: 100%;
+        margin: auto;
+        padding-block-start: 10px;
+        padding-block-end: 10px;
+        background-color: rgba(0, 0, 0, 0.575);
+    }
+    
+    nav{
+        color: rgb(0, 0, 0);
+    }
+    nav:active{
+        color: rgb(0, 0, 0);
+    }
+    nav:hover{
+        color: black;
+    }
+    nav:visited{
+        color: black;
+    }
+    nav:link{
+        color: black;
+    }
+
+
+    /* FONT */
+    .tomorrow-thin {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    .tomorrow-extralight {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .tomorrow-light {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .tomorrow-regular {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .tomorrow-medium {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .tomorrow-semibold {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .tomorrow-bold {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .tomorrow-extrabold {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    .tomorrow-black {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    .tomorrow-thin-italic {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+    }
+
+    .tomorrow-extralight-italic {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+    }
+
+    .tomorrow-light-italic {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .tomorrow-regular-italic {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .tomorrow-medium-italic {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .tomorrow-semibold-italic {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .tomorrow-bold-italic {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .tomorrow-extrabold-italic {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+    }
+
+    .tomorrow-black-italic {
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+    }
+
+    .walter-turncoat-regular {
+        font-family: "Walter Turncoat", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    
+    .sour-gummy-regular {
+        font-family: "Sour Gummy", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+    }
+
+    .sour-gummy-bold {
+        font-family: "Sour Gummy", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+    }
+
+    .sour-gummy-semibold {
+        font-family: "Sour Gummy", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+    }
+
+    .coral-pixels-regular {
+        font-family: "Coral Pixels", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .mountains-of-christmas-regular {
+        font-family: "Mountains of Christmas", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .mountains-of-christmas-bold {
+        font-family: "Mountains of Christmas", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .gaegu-regular {
+        font-family: "Gaegu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+
+
+    /* HEADER */
+    header{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: rgb(0, 0, 0);
+            height: fit-content;
+            width: 100%;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .sticky + .content {
+        padding-top: 102px;
+    }   
+
+    .logo-container{
+        justify-self: left;
+    }
+
+    .logo{
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        margin-left: 50px;
+    }
+
+    .title{
+        margin: auto;
+        justify-self: center;
+        white-space: nowrap;
+        color: white;
+    }
+    
+
+     /* RUNNING TEXT */
+    .wrapper {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .marquee {
+        color: azure;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+        animation: marquee 22s linear infinite;
+    }
+
+    .marquee p {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+      @keyframes marquee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+    }
+
+    /* GRID LAYOUT WEBSITE BODY */
+    div.flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.flex-container > div {
+        margin: 10px;
+    }
+
+    /* Use media query and show the flex items vertically if screen width is less than 600px */
+    @media screen and (max-width:600px) {
+        div.flex-container {
+            flex-direction: column;
+        }
+    }
+
+    .content {
+        color: white;
+        padding: 16px;
+        margin-top: 69px;
+        opacity: 0;
+    }
+
+        /* SIDE CONTENT */
+        .side-content{
+        
+        }
+
+        /* MAIN CONTENT */
+        .main-content{
+
+        }
+
+    .gif-center{
+        width: auto;
+        height: auto;
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+        border: 0;
+        float:  right;  
+    }
+
+
+    /* FOOTER */
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: rgba(110, 187, 255, 0.055);
+    }
