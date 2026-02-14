@@ -1,3 +1,3 @@
 # WEBBYMANTRA
-A Webhost and Website making services for small business.
-## SOON TO BE LAUNCH
+A Webhost and Website making services.
+[www.webbymantra.com](https://webbymantra.com/)
